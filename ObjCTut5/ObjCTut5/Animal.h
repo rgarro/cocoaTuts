@@ -20,6 +20,7 @@
 
 -(void) getInfo;
 
--(float) weightInKg;
+-(float) weightInKg:(float) weightInLbs;
+-(NSString *) talkToMe:(NSString *) myName;
 
 @end

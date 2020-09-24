@@ -23,4 +23,8 @@
 -(float) weightInKg:(float) weightInLbs;
 -(NSString *) talkToMe:(NSString *) myName;
 
+-(int) getSum: (int) num1
+   nextNumber:(int)num2;
+
+
 @end

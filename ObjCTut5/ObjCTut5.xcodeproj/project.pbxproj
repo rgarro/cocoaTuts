@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FB1C6181251A4BBA00488556 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1C6180251A4BBA00488556 /* Animal.m */; };
 		FB2A1D582518F55000871DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2A1D572518F55000871DE4 /* main.m */; };
+		FB30E63B251D1A1B006E8DA0 /* Animal+Exam.m in Sources */ = {isa = PBXBuildFile; fileRef = FB30E63A251D1A1B006E8DA0 /* Animal+Exam.m */; };
+		FB30E63E251D1CDD006E8DA0 /* Animal+Vet.m in Sources */ = {isa = PBXBuildFile; fileRef = FB30E63D251D1CDD006E8DA0 /* Animal+Vet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		FB1C6180251A4BBA00488556 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		FB2A1D542518F55000871DE4 /* ObjCTut5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCTut5; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2A1D572518F55000871DE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB30E639251D1A1B006E8DA0 /* Animal+Exam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Exam.h"; sourceTree = "<group>"; };
+		FB30E63A251D1A1B006E8DA0 /* Animal+Exam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Exam.m"; sourceTree = "<group>"; };
+		FB30E63C251D1CDD006E8DA0 /* Animal+Vet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+Vet.h"; sourceTree = "<group>"; };
+		FB30E63D251D1CDD006E8DA0 /* Animal+Vet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+Vet.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				FB2A1D572518F55000871DE4 /* main.m */,
 				FB1C617F251A4BBA00488556 /* Animal.h */,
 				FB1C6180251A4BBA00488556 /* Animal.m */,
+				FB30E639251D1A1B006E8DA0 /* Animal+Exam.h */,
+				FB30E63A251D1A1B006E8DA0 /* Animal+Exam.m */,
+				FB30E63C251D1CDD006E8DA0 /* Animal+Vet.h */,
+				FB30E63D251D1CDD006E8DA0 /* Animal+Vet.m */,
 			);
 			path = ObjCTut5;
 			sourceTree = "<group>";
@@ -125,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB2A1D582518F55000871DE4 /* main.m in Sources */,
+				FB30E63B251D1A1B006E8DA0 /* Animal+Exam.m in Sources */,
 				FB1C6181251A4BBA00488556 /* Animal.m in Sources */,
+				FB30E63E251D1CDD006E8DA0 /* Animal+Vet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

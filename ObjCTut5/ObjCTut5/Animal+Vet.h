@@ -9,5 +9,5 @@
 #import "Animal.h"
 
 @interface Animal (Vet)
-
+-(void) getExamResults;
 @end
